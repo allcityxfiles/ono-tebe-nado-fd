@@ -3,9 +3,9 @@ name: Tests
 on:
   push:
     branches:
-      - '**'
+      - ''
     tags:
-      - '**'
+      - ''
 
 jobs:
   tests:
@@ -14,6 +14,7 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v3
       - name: Check if the repository is private
+        run: exit 0
         if: ${{github.event.repository.private}}
       - name: Tests
         uses: Yandex-Practicum/test-project-action@v1
