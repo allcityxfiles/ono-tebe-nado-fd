@@ -54,7 +54,7 @@
   background-image: url(../images/cover.jpg);
   background-size: cover;
   background-repeat: no-repeat;
-  height: 757px;
+  min-height: 757px;
   position: relative;
   z-index: 0;
   margin-bottom: 180px;
@@ -174,8 +174,6 @@
   background-image: url(../images/card-lot-03.jpg);
 }
 
-
-
 .card__text .lots__link {
   width: 100%;
 }
@@ -261,7 +259,7 @@
   display: flex;
   justify-content: space-between;
   padding: 0 50px 0 50px;
-  height: 180px;
+  margin-bottom: 82px;
 }
 
 .footer__social-list {
