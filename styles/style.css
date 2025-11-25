@@ -16,16 +16,16 @@
   text-underline-offset: 0.25em;
 }
 
-.header__links-list-item_link-active {
-  text-decoration: none;
-}
-
-.header__links-list {
+.header__links-list-item {
   list-style: circle;
 }
 
-.header__links-list_link-active {
+.header__links-list-item_link-active {
   list-style: none;
+}
+
+.header__links-list_link-active {
+  text-decoration: none;
 }
 
 .header__logo {
@@ -288,6 +288,6 @@
   list-style: none;
 }
 
-.footer__links-list-item_no-bullit {
+.footer__menu-link_active {
   text-decoration: none;
 }
